@@ -209,6 +209,8 @@ echo "config.json生成完毕"
 echo "xtls-vless-vision-reality配置完成"
 echo '默认配置订阅连接：'
 echo "vless://${uuid}@${ip}:443?encryption=none&security=reality&sni=www.microsoft.com&fp=safari&flow=xtls-rprx-vision&pbk=${public_key}&sid=${sid}&type=tcp&headerType=none#server"
+echo 'Loon 格式：'
+echo "xvvr01 = VLESS,{ip},443,"{uuid}",transport=tcp,flow=xtls-rprx-vision,public-key="{public_key}",short-id={sid},udp=true,over-tls=true,sni=www.microsoft.com,skip-cert-verify=true
 echo "若你希望使用mldsa65, 请使用以下订阅链接："
 echo "vless://${uuid}@${ip}:443?encryption=none&security=reality&sni=www.microsoft.com&fp=safari&flow=xtls-rprx-vision&pbk=${public_key}&sid=${sid}&type=tcp&headerType=none&pqv=${mldsa_verify}#server"
 systemctl start xray
