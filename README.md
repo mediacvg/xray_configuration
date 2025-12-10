@@ -17,7 +17,7 @@
 
 ## 内容
 ### vless-vision-reality
-我目前正在稳定使用的代理配置
+我目前正在稳定使用的代理配置，已支持抗量子配置(mldsa)
 
 ### xray_with_frp
 我的frp通过路径，配合xray可以实现加密frp反代流量
